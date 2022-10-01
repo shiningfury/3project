@@ -1,0 +1,99 @@
+body {
+    font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+a {
+    text-decoration: none;
+}
+  .container {
+    width: 1170px;
+    /* позиционирование по центру */
+    margin: 0 auto;
+  }
+  .header {
+    background: url(img/header-bg.jpg) no-repeat center top / cover;   
+    padding-top: 57px;
+    color: #ffffff;
+    padding-bottom: 322px;
+  }
+
+  header a {
+    color: #ffffff;
+  }
+.menu {
+    display: flex;
+}
+.logo {
+    margin-right: 69px;
+}
+.menu li a {
+letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 40px;
+    line-height: 21px;
+}
+.tel {
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+.offer {
+    text-transform: uppercase;
+}
+.offer p {
+    font-family: 'Anton';
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    
+}
+.offer h1 {
+    margin-bottom: 19px;
+    font-family: 'Anton';
+    font-size: 100px;
+    letter-spacing: 0.1em;
+    }
+.button {
+font-family: 'Anton';
+font-size: 17px;
+text-align: center;
+letter-spacing: 0.1em;
+}
