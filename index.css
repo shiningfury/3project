@@ -33,6 +33,7 @@ a {
     width: 1170px;
     /* позиционирование по центру */
     margin: 0 auto;
+  
   }
   .header {
     background: url(img/header-bg.jpg) no-repeat center top / cover;   
@@ -77,7 +78,8 @@ letter-spacing: 0.1em;
     padding-top: 57px;
 }
 .offer {
-    text-transform: uppercase;
+  margin-top: 216px;
+  text-transform: uppercase;
 }
 .offer p {
     font-family: 'Anton';
@@ -92,8 +94,56 @@ letter-spacing: 0.1em;
     letter-spacing: 0.1em;
     }
 .button {
+  display: block;
 font-family: 'Anton';
 font-size: 17px;
 text-align: center;
 letter-spacing: 0.1em;
+border: 1px solid #ffffff;
+width: 238px;
+padding: 17px 47px;
+margin-bottom: 322px;
+}
+
+.container h2 {
+  font-family: 'Anton';
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 113px;
+  margin-bottom: 58px;
+
+}
+
+h3 {
+  font-family: 'Anton';
+  font-size: 25px;
+  margin-bottom: 19px;
+}
+
+.description {
+  display: flex;
+justify-content: space-between ;
+}
+.description p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  width: 567px;
+  text-align: justify;
+  line-height: 1.62em;
+}
+.gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between ;
+}
+.footer-text {
+  font-style: 15px;
+  margin-top: 113px;
+  display: flex;
+  font-family: 'Open Sans';
+}
+.footer-text p {
+  margin-right: 67px;
+
 }
